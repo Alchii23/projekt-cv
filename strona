@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Julia Alchimowicz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Julia Alchimowicz</h1>
+        <p>Email: julia.a@mail.com | Telefon: 123-456-789</p>
+    </header>
+    
+    <section id="profile">
+        <h2>Profil</h2>
+        <p>Jestem studentką grafiki komputerowej na WSB Merito.</p>
+    </section>
+    
+    <section id="experience">
+        <h2>Doświadczenie zawodowe</h2>
+        <div class="job">
+            <h3>Firma Design</h3>
+            <p>Stanowisko: Junior Graphic Designer</p>
+            <p>Data: Kwiecień 2024 - Obecnie</p>
+            <ul>
+                <li>Tworzene grafik komputerowych</li>
+            </ul>
+        </div>
+        <div class="job">
+            <h3>Firma Technology</h3>
+            <p>Stanowisko: Social Media Specialist</p>
+            <p>Data: Czerwiec 2022 - Marzec 2024</p>
+            <ul>
+                <li>Prowadzenie oficjalnych social media firmy</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="education">
+        <h2>Wykształcenie</h2>
+        <div class="education">
+            <h3>Uniwersytet Z</h3>
+            <p>Kierunek: Informatyka</p>
+            <p>Data: Wrzesień 2014 - Czerwiec 2018</p>
+        </div>
+    </section>
+    
+    <section id="skills">
+        <h2>Umiejętności</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Python, Java, C++</li>
+            <li>Frameworki: React, Angular</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projekty</h2>
+        <div class="project">
+            <h3>Projekt A</h3>
+            <p>Opis: Aplikacja do zarządzania zadaniami...</p>
+        </div>
+        <div class="project">
+            <h3>Projekt B</h3>
+            <p>Opis: Strona internetowa dla małych firm...</p>
+        </div>
+    </section>
+    
+    <footer>
+        <p>Znajdź mnie na: <a href="https://www.linkedin.com/in/jankowalski">LinkedIn</a>, <a href="https://github.com/jankowalski">GitHub</a></p>
+    </footer>
+</body>
+</html>

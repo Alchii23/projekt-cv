@@ -3,36 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV - Julia Alchimowicz</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>CV - Julia Alchi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header p {
+            margin: 5px 0 0;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+
+        section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            color: blue; 
+            font-weight: bold; 
+        }
+
+        .job, .education, .project {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #f4f4f4;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Julia Alchimowicz</h1>
-        <p>Email: julia.a@mail.com | Telefon: 123-456-789</p>
+        <h1>Julia Alchi</h1>
+        <p>Email: julia.alchi@email.com | Telefon: 123-456-789</p>
     </header>
     
     <section id="profile">
         <h2>Profil</h2>
-        <p>Jestem studentką grafiki komputerowej na WSB Merito.</p>
+        <p>Jestem studentką na Uniwersytecie WSB Merito na kierunku grafika komputerowa.</p>
     </section>
     
     <section id="experience">
         <h2>Doświadczenie zawodowe</h2>
         <div class="job">
             <h3>Firma Design</h3>
-            <p>Stanowisko: Junior Graphic Designer</p>
-            <p>Data: Kwiecień 2024 - Obecnie</p>
+            <p>Stanowisko: Grafik Komputerowy</p>
+            <p>Data: Luty 2024 - Obecnie</p>
             <ul>
-                <li>Tworzene grafik komputerowych</li>
+                <li>Tworzenie grafik komputerowych</li>
+                <li>Tworzenie stron internetowych</li>
             </ul>
         </div>
         <div class="job">
             <h3>Firma Technology</h3>
             <p>Stanowisko: Social Media Specialist</p>
-            <p>Data: Czerwiec 2022 - Marzec 2024</p>
+            <p>Data: Marzec 2022 - Styczeń 2024</p>
             <ul>
-                <li>Prowadzenie oficjalnych social media firmy</li>
+                <li>Prowadzenie oficjalnych mediów społecznościowych firmy</li>
             </ul>
         </div>
     </section>
@@ -40,35 +107,19 @@
     <section id="education">
         <h2>Wykształcenie</h2>
         <div class="education">
-            <h3>Uniwersytet Z</h3>
-            <p>Kierunek: Informatyka</p>
-            <p>Data: Wrzesień 2014 - Czerwiec 2018</p>
+            <h3>Uniwersytet WSB Merito</h3>
+            <p>Kierunek: Grafika Komputerowa</p>
+            <p>Data: Październik 2023 - Obecnie</p>
         </div>
     </section>
     
     <section id="skills">
         <h2>Umiejętności</h2>
         <ul>
-            <li>HTML, CSS, JavaScript</li>
-            <li>Python, Java, C++</li>
-            <li>Frameworki: React, Angular</li>
+            <li>Pakiet Adobe (m.in.: Photoshop, After Effects, Illustrator)</li>
+            <li>Pakiet Microsoft Office (PowerPoint, Word, Exel)</li>
         </ul>
     </section>
-    
-    <section id="projects">
-        <h2>Projekty</h2>
-        <div class="project">
-            <h3>Projekt A</h3>
-            <p>Opis: Aplikacja do zarządzania zadaniami...</p>
-        </div>
-        <div class="project">
-            <h3>Projekt B</h3>
-            <p>Opis: Strona internetowa dla małych firm...</p>
-        </div>
-    </section>
-    
-    <footer>
-        <p>Znajdź mnie na: <a href="https://www.linkedin.com/in/jankowalski">LinkedIn</a>, <a href="https://github.com/jankowalski">GitHub</a></p>
-    </footer>
+  
 </body>
 </html>

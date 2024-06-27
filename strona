@@ -35,7 +35,7 @@
         section h2 {
             border-bottom: 2px solid #333;
             padding-bottom: 5px;
-            color: blue; 
+            color: black; 
             font-weight: bold; 
         }
 
@@ -80,7 +80,7 @@
     
     <section id="profile">
         <h2>Profil</h2>
-        <p>Jestem studentką na Uniwersytecie WSB Merito na kierunku grafika komputerowa.</p>
+        <p>Jestem studentką na Uniwersytecie WSB Merito na kierunku grafika komputerowa. Interesuję się fotografią, malarstwem i sportem.</p>
     </section>
     
     <section id="experience">
